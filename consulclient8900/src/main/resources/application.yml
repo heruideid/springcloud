@@ -1,0 +1,12 @@
+server:
+  port: 8900
+spring:
+  application:
+    name: consulclient8900
+  cloud:
+    consul:
+      port: 8500
+      host: localhost
+      discovery:
+        service-name: ${spring.application.name}
+        register-health-check: true

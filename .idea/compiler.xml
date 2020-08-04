@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="eureka8888" />
+        <module name="eureka8761" />
+        <module name="productservice8900" />
+        <module name="userservice9999" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="consulclient8900" target="1.8" />
+      <module name="eureka8761" target="1.8" />
+      <module name="eureka8888" target="1.8" />
+      <module name="productservice8900" target="1.8" />
+      <module name="userservice9999" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="consulclient8900" options="-parameters" />
+      <module name="eureka8761" options="-parameters" />
+      <module name="eureka8888" options="-parameters" />
+      <module name="productservice8900" options="-parameters" />
+      <module name="userservice9999" options="-parameters" />
+    </option>
+  </component>
+</project>
